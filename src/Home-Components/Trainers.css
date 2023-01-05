@@ -1,0 +1,54 @@
+.trainersWrapper {
+    margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.trainerHeader {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 32px;
+}
+
+.trainersItems {
+
+}
+
+.trainers {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.trainerProfile {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 40px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 200ms ease;
+
+}
+
+
+.trainerProfile:hover {
+    scale: 1.01;
+    opacity: 1;
+}
+
+.trainerImg {
+width: 100%;
+border-radius: 10px;
+}
+
+.trainerName {
+margin-top: 25px;
+}
+
+.subheader {
+    margin-top: 0;
+    font-weight: 400;
+}

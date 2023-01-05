@@ -1,0 +1,34 @@
+.description__wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 70px;
+}
+
+.dwHeader {
+font-size: 33px;
+margin-bottom: 50px;
+letter-spacing: 1px;
+}
+
+.description__items {
+
+}
+
+.description {
+margin-bottom: 50px;
+}
+
+.descriptionHeader {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.descriptionAnswer {
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+font-size: 18px;
+}

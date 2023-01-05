@@ -1,0 +1,39 @@
+.footer__wrapper {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.footerHeader {
+
+}
+
+.footerImg {
+    width: 200px;
+    opacity: 0.9;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.footerImg:hover {
+    scale: 1.02;
+    opacity: 1;
+}
+
+.footerLinks {
+display: flex;
+margin-bottom: 20px;
+}
+
+.footerLink {
+margin: 20px;
+opacity: 0.9;
+cursor: pointer;
+transition: all 200ms ease;
+}
+
+.footerLink:hover {
+    scale: 1.02;
+    opacity: 1;
+}

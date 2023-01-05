@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react'
 import './Frontpage.css'
 
 function Frontpage() {
-  const [timeLeft, setTimeLeft] = useState(3600) // 1 hour in seconds
+  const [timeLeft, setTimeLeft] = useState(3600)
 
   useEffect(() => {
     const timer = setInterval(() => {
       setTimeLeft(timeLeft - 1)
-    }, 1000) // 1000 milliseconds = 1 second
+    }, 1000)
     return () => clearInterval(timer)
   }, [timeLeft])
 
